@@ -13,7 +13,6 @@ They want you to create a webapp, which allows them to list trailers of movies, 
 
 ### Acceptance Criteria
 - A definition of what a VCS is, is available as PDF and written in the team's own words
-- Have a written confirmation to have explained what a Version Control System is to someone who is not working in the IT industry
 
 ## User Story 2
 *As a Developer I want to create a fork of the main repository, so that I can build my own solution based on the existing files.*
