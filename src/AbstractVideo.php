@@ -1,21 +1,17 @@
 <?php
 
-namespace src;
-
 require_once "InterfaceVideo.php";
 
 abstract class AbstractVideo implements InterfaceVideo{
     protected string $title;
-    protected string $origin;       
-     //kann von vererbter klasse zugegriffen werden nicht von normaler anderer
+    protected string $origin;
     protected string $id;
 
     /**
      * @param string $title
-     * @param string $origin     //generiert automatisch dokumentation aus kommentar (dokumentation von code)
+     * @param string $origin
      * @param string $id
      */
-
     public function __construct(string $title, string $origin, string $id)
     {
         $this->title = $title;
@@ -26,7 +22,6 @@ abstract class AbstractVideo implements InterfaceVideo{
     /**
      * @return string
      */
-
     public function getTitle(): string
     {
         return $this->title;
@@ -35,7 +30,6 @@ abstract class AbstractVideo implements InterfaceVideo{
     /**
      * @return string
      */
-
     public function getOrigin(): string
     {
         return "from " . $this->origin;
@@ -44,7 +38,5 @@ abstract class AbstractVideo implements InterfaceVideo{
     /**
      * @return string
      */
-
-    abstract public function getIFrame(): string;      
-    //klasse von der keine instanz möglich ist, man muss hier eine extended klasse nehmen
+    abstract public function getIFrame(): string;
 }
