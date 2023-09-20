@@ -1,22 +1,16 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:darkblue;
-    color: white;
+    font-family:monospace;
+    background-color: #26004d;
+    color: #e3e3e3;
 }
 
-.header {
-    padding: 20px;
-    padding-bottom: 2px;
-    text-align: center;
-    background-color: darkblue;
-    color: white;
-    font-size: 40px;
-    }
 h1 {
+    margin-top: 5%;
+    text-align: left;
     font-family: monospace;
-    font-weight: bolder;
-    background-color: darkblue;
-    color: white;
+    font-size:90px;
+    font-weight: lighter;
+    margin-left: 7%;
 }
 
 h2 {

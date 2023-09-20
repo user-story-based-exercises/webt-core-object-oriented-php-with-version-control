@@ -6,9 +6,7 @@
         <link href="style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-    <div class="header">
     <h1>CryptTube</h1>
-    </div>
         <main>
             <?php
 
