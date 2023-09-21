@@ -1,22 +1,22 @@
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: lightblue;
-    color: black;
+    background-color:darkblue;
+    color: white;
 }
 
 .header {
     padding: 20px;
     padding-bottom: 2px;
     text-align: center;
-    background: lightblue;
-    color: black;
+    background-color: darkblue;
+    color: white;
     font-size: 40px;
     }
 h1 {
     font-family: monospace;
     font-weight: bolder;
-    background:lightblue;
-    color: black;
+    background-color: darkblue;
+    color: white;
 }
 
 h2 {
