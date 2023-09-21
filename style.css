@@ -1,6 +1,6 @@
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:plum;
+    background-color: lightblue;
     color: black;
 }
 
@@ -8,14 +8,14 @@
     padding: 20px;
     padding-bottom: 2px;
     text-align: center;
-    background: plum;
+    background: lightblue;
     color: black;
     font-size: 40px;
     }
 h1 {
     font-family: monospace;
     font-weight: bolder;
-    background: plum;
+    background:lightblue;
     color: black;
 }
 
