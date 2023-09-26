@@ -1,0 +1,16 @@
+{
+    "name": "duckling-designs/object-oriented-php",
+    "description": "FoodTube with object oriented php and version control",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "DucklingDesigns\\ObjectOrientedPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Burkard Mattias, Hoermann Lisa-Marie, Nemecek Sophie"
+        }
+    ],
+    "require": {}
+}
