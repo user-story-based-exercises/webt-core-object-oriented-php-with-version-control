@@ -8,7 +8,10 @@ class YouTubeVideo extends AbstractVideo {
 
     public function __construct(string $title, string $id)
     {
-        parent::__construct($title, "YouTube", $id);
+        parent::__construct($title, "YouTube", $id);      
+        //parent constructor ist das was extended wurde 
+        //(nimmt constructor einer anderen klasse, 
+        //kann aber alles mögliche (funktionen, etc) nehmen)
     }
 
     /**
