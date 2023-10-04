@@ -2,9 +2,7 @@
 
 namespace src;
 
-require_once "AbstractVideo.php";      
-//wenn es das nicht hat läuft der code nicht, 
-//once= nicht nochmal laden wenns schon geladen wurde
+require_once "AbstractVideo.php";
 
 class VimeoVideo extends AbstractVideo {
 

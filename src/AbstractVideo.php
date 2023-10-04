@@ -1,5 +1,7 @@
 <?php
 
+namespace src;
+
 require_once "InterfaceVideo.php";
 
 abstract class AbstractVideo implements InterfaceVideo{
@@ -12,6 +14,7 @@ abstract class AbstractVideo implements InterfaceVideo{
      * @param string $origin
      * @param string $id
      */
+
     public function __construct(string $title, string $origin, string $id)
     {
         $this->title = $title;
@@ -22,6 +25,7 @@ abstract class AbstractVideo implements InterfaceVideo{
     /**
      * @return string
      */
+
     public function getTitle(): string
     {
         return $this->title;
@@ -30,6 +34,7 @@ abstract class AbstractVideo implements InterfaceVideo{
     /**
      * @return string
      */
+
     public function getOrigin(): string
     {
         return "from " . $this->origin;
@@ -38,5 +43,6 @@ abstract class AbstractVideo implements InterfaceVideo{
     /**
      * @return string
      */
+
     abstract public function getIFrame(): string;
 }
