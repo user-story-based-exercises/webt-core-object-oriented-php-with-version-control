@@ -34,11 +34,11 @@
 
     echo '<h2>Source: Vimeo</h2>';
     echo '<div class="flexbox-cont2">';
-    $v1 = new Vimeo("How a vegan diet affects your brain", "https://www.youtube.com/embed/SdnEbJZoNg8?si=hqSct6Tp1kToSfne");
-    $v2 = new Vimeo("Here's What Happens To your Brain and Body When >ou Go Vegan", "https://www.youtube.com/embed/acePa05Cxpo?si=2Kv1JqQHlUU5IqWR");
-    $v3 = new Vimeo("What You Can Expect When You Go Vegan", "https://www.youtube.com/embed/WS8pZj2bsaU?si=AyEeE7hi_QNBIumm");
-    $v4 = new Vimeo("What you need to know before switching to a vegetarian diet", "https://www.youtube.com/embed/hB1CDtdcPVQ?si=6GUexIm3lcOZnMhY");
-    $v5 = new Vimeo("Potentail Vitamin and Mineral Deficiency Risks on a Vegan Diet", "https://www.youtube.com/embed/M6roj07jiys?si=aqtyKPXa6e2fFbxN");
+    $v1 = new Vimeo("Vegan diets and Protein", "https://player.vimeo.com/video/656492658?h=609886fb53");
+    $v2 = new Vimeo("how to plan a vegan diet", "https://player.vimeo.com/video/861518311?h=f5d3c2b133");
+    $v3 = new Vimeo("Vegan sosisler", "https://player.vimeo.com/video/33344663?h=d7fdaf3026");
+    $v4 = new Vimeo("Vegan Nutrition Principles", "https://player.vimeo.com/video/567058979?h=dc7220eec4&color=e33a71");
+    $v5 = new Vimeo("Vegan Infographic", "https://player.vimeo.com/video/224903454?h=e020c7d9a3");
     echo "<h3>". $v1->getName() ."</h3>";
     echo $v1->getEmbedCode();
     echo '<h3>' . $v2->getName() . '</h3>';
