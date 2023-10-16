@@ -28,7 +28,7 @@
     echo $yt3->getEmbedCode();
     echo '<h3>' . $yt4->getName() . '</h3>';
     echo $yt4->getEmbedCode();
-    echo '<h3>' . $yt2->getName() . '</h3>';
+    echo '<h3>' . $yt5->getName() . '</h3>';
     echo $yt5->getEmbedCode();
     echo '</div>';
 
@@ -39,6 +39,18 @@
     $v3 = new Vimeo("What You Can Expect When You Go Vegan", "https://www.youtube.com/embed/WS8pZj2bsaU?si=AyEeE7hi_QNBIumm");
     $v4 = new Vimeo("What you need to know before switching to a vegetarian diet", "https://www.youtube.com/embed/hB1CDtdcPVQ?si=6GUexIm3lcOZnMhY");
     $v5 = new Vimeo("Potentail Vitamin and Mineral Deficiency Risks on a Vegan Diet", "https://www.youtube.com/embed/M6roj07jiys?si=aqtyKPXa6e2fFbxN");
+    echo "<h3>". $v1->getName() ."</h3>";
+    echo $v1->getEmbedCode();
+    echo '<h3>' . $v2->getName() . '</h3>';
+    echo $v2->getEmbedCode();
+    echo '<h3>' . $v3->getName() . '</h3>';
+    echo $v3->getEmbedCode();
+    echo '<h3>' . $yt4->getName() . '</h3>';
+    echo $v4->getEmbedCode();
+    echo '<h3>' . $v5->getName() . '</h3>';
+    echo $v5->getEmbedCode();
+    echo '</div>';
+
     echo '</div>';
     ?>
 
