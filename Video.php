@@ -51,8 +51,8 @@ class Vimeo extends video{
     }
     public function getEmbedCode() : string
     {
-        return '<iframe width="560" height="315" src="' . $this->source . '"
-                title="YouTube video player"
+         return '<iframe width="560" height="315" src="' . $this->source . '"
+                title="'.$this->name.'"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>';
     }
