@@ -29,26 +29,29 @@ class YouTube extends Video{
     public function __construct($name, $source)
     {
         parent::__construct($name, "YouTube");
+        $this->source = $source;
 
     }
     public function getEmbedCode() : string
     {
-        return '<iframe class="box" src="' . $this->source . '"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>';
+        return '<iframe width="560" height="315" src="' . $this->source . '"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>';
     }
 }
 
 class Vimeo extends video{
+    protected $source;
     public function __construct($name, $source)
     {
         parent::__construct($name, "Vimeo");
+        $this->source = $source;
 
     }
     public function getEmbedCode() : string
     {
-        return '<iframe class="box" src="' . $this->source . '"
+        return '<iframe width="560" height="315" src="' . $this->source . '"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>';
