@@ -5,7 +5,6 @@
 Interface = eine abstrakte Struktur, die definiert welche Methoden
  in Klassen implementiert werden müssen, die dieses Interface verwenden.*/
 
-namespace Htlw3r\Composerdemo\one_Aufgabe;
 interface VideoInterface
 {
     /* PHP-Schnittstelle (Interface)

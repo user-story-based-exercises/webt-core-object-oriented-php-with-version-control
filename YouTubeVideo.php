@@ -6,9 +6,7 @@
 die von der abstrakten Klasse "AbstractVideo" erbt
 -> "YouTubeVideo" erbt alle Eigenschaften und Methoden von
 "AbstractVideo" und kann diese verwenden oder überschreiben*/
-
-namespace Htlw3r\Composerdemo\one_Aufgabe;
-
+require_once "./AbstractVideo.php";
 class YouTubeVideo extends AbstractVideo
 {
     //Konstruktor für die "YouTubeVideo"-Klasse

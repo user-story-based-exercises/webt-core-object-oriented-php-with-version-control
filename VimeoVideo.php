@@ -3,8 +3,7 @@
 /* User Story 8 */
 //definiert eine Klasse welche von der abstrakten Klasse "AbstractVideo" erbt.
 //Dadurch erbt "VimeoVideo" die Eigenschaften und Methoden von "AbstractVideo"
-namespace Htlw3r\Composerdemo\one_Aufgabe;
-
+require_once "./AbstractVideo.php";
 class VimeoVideo extends AbstractVideo
 {
     //Konstruktor für die "VimeoVideo"-Klasse

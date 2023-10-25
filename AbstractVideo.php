@@ -7,8 +7,7 @@ abstract" = dass diese Klasse nicht direkt instanziiert
 werden kann, sondern als Vorlage für andere konkrete
 Klassen dient, die von ihr erben müssen.*/
 
-namespace Htlw3r\Composerdemo\one_Aufgabe;
-
+require_once "./VideoInterface.php";
 abstract class AbstractVideo implements VideoInterface
 {
     /*drei geschützte (protected) Eigenschaften
