@@ -1,5 +1,6 @@
 <?php
 abstract class VideoAbstract implements InterfaceVideo{
+
     public function getTitel(){
 
     }
@@ -7,7 +8,7 @@ abstract class VideoAbstract implements InterfaceVideo{
 
     }
     public function getEmbettet(){
-        
+
     }
 }
 ?>
