@@ -40,6 +40,6 @@
         ?>
 
     </div>
-</body>
 
+</body>
 </html>

@@ -30,7 +30,8 @@ class AllVideos implements InterfaceVideo
         return $this->einbetten;
     }
 }
-    */
+
+*/
 
 require_once 'VideoAbstract.php';
 

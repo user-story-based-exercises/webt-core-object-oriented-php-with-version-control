@@ -1,4 +1,5 @@
 <?php
+
 require_once 'InterfaceVideo.php';
 
 abstract class VideoAbstract implements InterfaceVideo
