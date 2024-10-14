@@ -13,7 +13,7 @@
     <div class="container">
 
         <?php
-        require 'InterfaceVideo.php';
+        require 'VideoAbstract.php';
         require 'AllVideos.php';
 
         $videos = [
@@ -28,7 +28,6 @@
             new AllVideos('Sister Death', '<iframe src="https://www.youtube.com/embed/Ze6plKbzkY0?si=tqUXWGQgEhgD84Mi" title="YouTube video player" allowfullscreen></iframe>', 'YouTube'),
             new AllVideos('Hypnotic', '<iframe src="https://www.youtube.com/embed/eHsWYmnXk1o?si=kdfPDInWPu2P50yP" title="YouTube video player" allowfullscreen></iframe>', 'YouTube')
         ];
-        
 
         foreach ($videos as $video) {
             echo '<div class="YTVideo">';

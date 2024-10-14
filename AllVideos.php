@@ -1,4 +1,5 @@
 <?php
+/*
 require_once 'InterfaceVideo.php';
 
 class AllVideos implements InterfaceVideo
@@ -24,6 +25,17 @@ class AllVideos implements InterfaceVideo
         return $this->quelle;
     }
 
+    public function getEmbettet()
+    {
+        return $this->einbetten;
+    }
+}
+    */
+
+require_once 'VideoAbstract.php';
+
+class AllVideos extends VideoAbstract
+{
     public function getEmbettet()
     {
         return $this->einbetten;
