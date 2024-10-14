@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'YouMurdererBB';
+    src: url('fonts/youmurdererbb_reg.ttf') format('truetype');
+}
+
+body {
+    font-family: 'YouMurdererBB';
+    margin: 20px;
+    background-color: #353638;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 75px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Zeilenumbruch */
+    justify-content: center;
+    gap: 50px;
+    margin: 50px;
+}
+
+.YTVideo {
+    flex: 0 1 calc(50% - 20px);
+    background-color: #898f89;
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 10px;
+    max-width: 480px;
+}
+
+.YTVideo h2 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.YTVideo iframe {
+    width: 100%;
+    height: 250px;
+}
