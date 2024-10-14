@@ -13,6 +13,7 @@ body {
 h2 {
     text-align: center;
     font-size: 75px;
+    color: red;
 }
 
 p {
@@ -29,10 +30,10 @@ p {
 }
 
 .YTVideo {
-    flex: 0 1 calc(50% - 20px);
-    background-color: #898f89;
-    border-radius: 10px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 0 1 45%;
+    background-color: #464e46;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     padding: 10px;
     max-width: 480px;
