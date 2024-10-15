@@ -23,7 +23,7 @@ p {
 
 .container {
     display: flex;
-    flex-wrap: wrap; /* Zeilenumbruch */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
     margin: 50px;
@@ -47,4 +47,68 @@ p {
 .YTVideo iframe {
     width: 100%;
     height: 250px;
+}
+
+/* Media Queries für kleinere Bildschirme */
+@media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 60px;
+    }
+
+    .YTVideo {
+        flex: 0 1 48%; /* Größere Videos bei mittleren Bildschirmen */
+    }
+
+    p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .YTVideo {
+        flex: 0 1 100%; /* Videos nehmen die gesamte Breite ein */
+        max-width: 100%; /* Max-Breite anpassen für mobile Bildschirme */
+    }
+
+    .YTVideo h2 {
+        font-size: 30px;
+    }
+
+    .YTVideo iframe {
+        height: 200px; /* Iframe-Größe für kleinere Bildschirme anpassen */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .YTVideo {
+        padding: 5px;
+    }
+
+    .YTVideo h2 {
+        font-size: 25px;
+    }
+
+    .YTVideo iframe {
+        height: 180px; /* Kleinere Höhe für ganz kleine Bildschirme */
+    }
 }
